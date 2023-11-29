@@ -1,0 +1,29 @@
+.card-box{
+    width: 300px;
+    box-shadow: 1px 1px 10px #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+  .card-title{
+    color: #5c6ff4;
+    text-align: center;
+    display: inline-block;
+  }
+  .card-desc{
+    margin: 20px 0;
+    text-align: center;
+  }
+  .card-footer{
+    width: 100%;
+    color: #5c6ff4;
+    display: flex;
+    background-color: #5c6ef42b;
+    justify-content: flex-end;
+    align-items: center;
+    p{
+        margin-right: 10px;
+    }
+  }
+}

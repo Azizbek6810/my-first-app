@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ul{
+    margin-bottom: 0;
+}
+a{
+    list-style-type: none;
+    color: black;
+    &:hover{
+        text-decoration: none;
+        color: grey;
+    }
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+.container-fluid{
+    padding: 20px 100px;   
+}
